@@ -1,0 +1,20 @@
+# dependencies — installed fresh on every machine (they contain OS-specific binaries)
+node_modules/
+
+# build output — Vercel builds this itself
+dist/
+
+# local env & tooling
+.env
+.env.*
+!.env.example
+.vercel/
+*.log
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
